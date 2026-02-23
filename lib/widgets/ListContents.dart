@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:front_end_flutter/model/Contador.dart';
 import 'package:front_end_flutter/model/ItemCatalog.dart';
-import 'package:front_end_flutter/screens/CicleStateful.dart';
 import 'package:front_end_flutter/screens/StatefulParent.dart';
 import 'package:front_end_flutter/screens/widget_conteudo.dart';
 import 'package:front_end_flutter/screens/widgets_layout.dart';
