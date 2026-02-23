@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:front_end_flutter/widgets/titulo_secao';
+import 'package:front_end_flutter/widgets/titulo_secao.dart';
 
 class WidgetConteudo extends StatelessWidget {
   const WidgetConteudo({super.key});
@@ -7,7 +7,7 @@ class WidgetConteudo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Widgets de Conteúdo')),
+      appBar: AppBar(title: Text('Catálogo de Widgets')),
       body: ListView(
         padding: EdgeInsets.all(16),
         children: [TituloSecao(titulo: 'Textos'),
