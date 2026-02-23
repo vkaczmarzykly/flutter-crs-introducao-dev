@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:front_end_flutter/model/Contador.dart';
 import 'package:front_end_flutter/model/ItemCatalog.dart';
+import 'package:front_end_flutter/screens/StatefulParent.dart';
 import 'package:front_end_flutter/screens/widget_conteudo.dart';
 import 'package:front_end_flutter/screens/widgets_layout.dart';
 
@@ -16,6 +18,18 @@ class ListContents extends StatelessWidget {
       icon: Icons.view_quilt,
       description: 'Widgets que organizam outros widgets na tela.',
       destination: WidgetsLayout(),
+    ),
+    ItemCatalog(
+      title: 'Cicle Life - Stateful',
+      icon: Icons.sync,
+      description: 'Entendendo o ciclo de vida de um StatefulWidget.',
+      destination: Statefulparent(),
+    ),
+    ItemCatalog(
+      title: 'Contador - setState',
+      icon: Icons.refresh,
+      description: 'Exemplo de contador utilizando setState e gerenciamento de estado.',
+      destination: Contador(),
     ),
   ];
 
